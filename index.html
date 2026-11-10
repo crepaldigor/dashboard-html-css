@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="glow"></div>
+  <main class="bento">
+    <section class="tile hero">
+      <span class="label">Receita total · Novembro</span>
+      <h1>R$ 48.290<small>,00</small></h1>
+      <p><em class="up">↑ 12,4%</em> em relação ao mês anterior</p>
+      <svg class="line" viewBox="0 0 400 100" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#a3e635" stop-opacity=".35" />
+            <stop offset="1" stop-color="#a3e635" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <path d="M0,80 C40,70 60,85 100,60 S160,40 200,50 S260,20 300,30 S360,10 400,5 L400,100 L0,100Z"
+          fill="url(#g)" />
+        <path d="M0,80 C40,70 60,85 100,60 S160,40 200,50 S260,20 300,30 S360,10 400,5" fill="none" stroke="#a3e635"
+          stroke-width="2" />
+      </svg>
+    </section>
+
+    <section class="tile stat"><span class="label">Usuários ativos</span>
+      <h2>3.842</h2><em class="up">↑ 5,1%</em>
+    </section>
+    <section class="tile stat"><span class="label">Pedidos</span>
+      <h2>1.209</h2><em class="down">↓ 2,3%</em>
+    </section>
+
+    <section class="tile ring">
+      <span class="label">Meta mensal</span>
+      <div class="donut" style="--p:72"><strong>72%</strong></div>
+      <p class="muted">R$ 48k de R$ 67k</p>
+    </section>
+
+    <section class="tile bars">
+      <span class="label">Vendas na semana</span>
+      <div class="chart">
+        <i style="--h:40%"></i><i style="--h:62%"></i><i style="--h:48%"></i><i style="--h:84%"></i><i
+          style="--h:70%"></i><i class="hi" style="--h:96%"></i><i style="--h:58%"></i>
+      </div>
+      <div class="days"><b>S</b><b>T</b><b>Q</b><b>Q</b><b>S</b><b>S</b><b>D</b></div>
+    </section>
+
+    <section class="tile list">
+      <span class="label">Atividade recente</span>
+      <ul>
+        <li><span class="dot ok"></span>
+          <div>Ana Souza<small>Pagamento recebido</small></div><b>R$ 320</b>
+        </li>
+        <li><span class="dot wait"></span>
+          <div>Bruno Lima<small>Aguardando</small></div><b>R$ 1.150</b>
+        </li>
+        <li><span class="dot ok"></span>
+          <div>Carla Dias<small>Pagamento recebido</small></div><b>R$ 89</b>
+        </li>
+        <li><span class="dot no"></span>
+          <div>Diego Alves<small>Cancelado</small></div><b>R$ 540</b>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
